@@ -52,10 +52,9 @@ def main():
             print("Au revoir !")
             break
         elif choice == "5":
-            show_average()
-        elif choice == "6":
             delete_expense()
-
+        elif choice == "6":
+            show_average()
         else:
             print("Choix invalide.")
 
